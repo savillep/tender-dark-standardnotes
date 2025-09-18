@@ -23,7 +23,8 @@
   --sn-stylekit-contrast-foreground-color: #f0f0f0;
 
   /* Borders and dividers */
-  --sn-stylekit-border-color: #484848;
+  /* --sn-stylekit-border-color: #484848; */
+  --sn-stylekit-border-color: #c9df8a;
   --sn-stylekit-secondary-border-color: #585858;
 
   /* Editor colors */
