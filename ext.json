@@ -1,0 +1,12 @@
+{
+  "identifier": "org.github.savillep.tender-dark-theme",
+  "name": "Tender Dark Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A dark theme inspired by the Tender vim colorscheme with warm, muted colors",
+  "url": "https://savillep.github.io/tender-dark-standardnotes/dist.css",
+  "download_url": "https://savillep.github.io/tender-dark-standardnotes/dist.css",
+  "latest_url": "https://savillep.github.io/tender-dark-standardnotes/ext.json",
+  "marketing_url": "https://github.com/savillep/tender-dark-standardnotes"
+}
