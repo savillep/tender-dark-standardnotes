@@ -180,10 +180,140 @@ pre code {
   background-color: rgba(200, 223, 138, 0.1) !important;
 }
 
+/* Navigation views and folders hover states */
+.views-list-item:hover,
+.folder-item:hover,
+.tag-item:hover,
+.smart-view-item:hover,
+.nav-item:hover,
+.sidebar-item:hover,
+.navigation-item:hover,
+[data-item-type="view"]:hover,
+[data-item-type="folder"]:hover,
+[data-item-type="tag"]:hover {
+  background-color: rgba(200, 223, 138, 0.15) !important;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
 /* Menu and dropdown hover states */
 .menu-item:hover,
 .dropdown-item:hover,
 .context-menu-item:hover {
   background-color: var(--tender-hover-green) !important;
   color: var(--sn-stylekit-background-color) !important;
+}
+
+/* Markdown styling consistency between editor and preview */
+.editor-content h1,
+.preview-content h1,
+.sn-editor h1,
+.markdown-preview h1 {
+  color: var(--tender-cyan) !important;
+  font-weight: 600;
+}
+
+.editor-content h2,
+.preview-content h2,
+.sn-editor h2,
+.markdown-preview h2 {
+  color: var(--tender-blue) !important;
+  font-weight: 600;
+}
+
+.editor-content h3,
+.preview-content h3,
+.sn-editor h3,
+.markdown-preview h3 {
+  color: var(--tender-purple) !important;
+  font-weight: 600;
+}
+
+.editor-content h4,
+.preview-content h4,
+.editor-content h5,
+.preview-content h5,
+.editor-content h6,
+.preview-content h6,
+.sn-editor h4,
+.sn-editor h5,
+.sn-editor h6,
+.markdown-preview h4,
+.markdown-preview h5,
+.markdown-preview h6 {
+  color: var(--tender-orange) !important;
+  font-weight: 500;
+}
+
+/* Bold and italic consistency */
+.editor-content strong,
+.preview-content strong,
+.sn-editor strong,
+.markdown-preview strong,
+.editor-content b,
+.preview-content b,
+.sn-editor b,
+.markdown-preview b {
+  color: var(--sn-stylekit-foreground-color) !important;
+  font-weight: 700;
+}
+
+.editor-content em,
+.preview-content em,
+.sn-editor em,
+.markdown-preview em,
+.editor-content i,
+.preview-content i,
+.sn-editor i,
+.markdown-preview i {
+  color: var(--tender-light-gray) !important;
+  font-style: italic;
+}
+
+/* Link consistency */
+.editor-content a,
+.preview-content a,
+.sn-editor a,
+.markdown-preview a {
+  color: var(--tender-cyan) !important;
+  text-decoration: underline;
+}
+
+.editor-content a:hover,
+.preview-content a:hover,
+.sn-editor a:hover,
+.markdown-preview a:hover {
+  color: var(--tender-blue) !important;
+}
+
+/* Blockquote consistency */
+.editor-content blockquote,
+.preview-content blockquote,
+.sn-editor blockquote,
+.markdown-preview blockquote {
+  border-left: 4px solid var(--tender-green);
+  padding-left: 12px;
+  margin-left: 0;
+  color: var(--tender-light-gray) !important;
+  font-style: italic;
+}
+
+/* List consistency */
+.editor-content ul,
+.preview-content ul,
+.editor-content ol,
+.preview-content ol,
+.sn-editor ul,
+.sn-editor ol,
+.markdown-preview ul,
+.markdown-preview ol {
+  color: var(--sn-stylekit-foreground-color) !important;
+}
+
+.editor-content li,
+.preview-content li,
+.sn-editor li,
+.markdown-preview li {
+  color: var(--sn-stylekit-foreground-color) !important;
+  margin-bottom: 4px;
 }
